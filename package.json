@@ -42,7 +42,8 @@
   },
   "bugs": "https://github.com/vahidvdn/nestjs-cashify/issues",
   "dependencies": {
-    "cashify": "^2.5.0"
+    "cashify": "^2.5.0",
+    "nestjs-cashify": "^2.2.0"
   },
   "devDependencies": {
     "@nestjs/common": "^10.0.2",

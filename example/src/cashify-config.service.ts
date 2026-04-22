@@ -16,5 +16,11 @@ export class CashifyConfigService implements CashifyOptionsFactory {
       base: this.configService.get<string>('BASE'),
       rates
     };
+    const symboles ={
+      GBP: '£',
+      EUR: '€',
+      USD: '$'
+    };
+    
   }
 }
